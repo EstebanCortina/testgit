@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    class triangulo {
+      constructor(b, h) {
+        this.b = b;
+        this.h = h;
+      }
+      area() {
+        let b = (this.b * this.h) / 2;
+        return b;
+      }
+    }
+    const objeto = new triangulo(3, 2);
+    console.log(objeto.area());
+  </script>
+</body>
+
+</html>
